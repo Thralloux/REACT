@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC");
+@import url("https://fonts.google.com/share?selection.family=Arvo:ital,wght@0,400;0,700;1,400;1,700");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+body {
+  font: normal 18px "Open Sans", sans-serif;
+  background: #fafafa;
+  color: #333;
+}
+
+header {
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  width: 98%;
+ 
+}
+.h1color {
+  color: white;
+}
+
+.ph1 {
+  color: white;
+}
+
+h1 {
+  font: normal 3em "Playfair Display SC", serif;
+  text-align: center;
+  
+}
+
+h2 {
+  font: normal 4em "Playfair Display SC", serif;
+  text-align: center;
+  
+}
+
+h4 {
+  color: #2d6370
+}
+
+nav {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav a {
+  flex-grow: 1;
+  text-align: center;
+  padding: 1em;
+  position: relative;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  transform: scaleX(0);
+  background: #333;
+  transition: 0.7s transform cubic-bezier(0.06, 0.9, 0.28, 1);
+}
+
+nav a:hover::after {
+  transform: scaleX(1);
+}
+
+.glass {
+  
+  width: 98%;
+  position: relative;
+  background: rgba(225, 225, 225, 0.05);
+  border-radius: 6px;
+  overflow: hidden;
+  z-index: 10;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  border: thick double #6f99aa;
+  -webkit-box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  min-width: 15vw;
+  padding: 20px 30px;
+}
+
+.glass__form {
+  position: relative;
+  display: grid;
+}
+
+.glass__form h4 {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 10px;
+}
+
+.glass__form__group {
+  margin: 10px 0;
+}
+
+.glass__form__input {
+  width: 100%;
+  background: transparent;
+  
+  outline: none;
+  border: none;
+  padding: 17px;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 10%);
+}
+
+.glass__form__input:focus {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.glass__form__btn {
+  background: #6f99aa;
+  border: 1px solid #ea2828;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}
+
+
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #000;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #000;
+  opacity: 1;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #000;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #000;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: #000;
+}
