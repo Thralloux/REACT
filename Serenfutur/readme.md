@@ -4,9 +4,7 @@
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?logo=bootstrap&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-18.0-339933?logo=node.js&logoColor=white)
 
-
 ## Description
----
 Ce projet est un site web permettant de tester ses chances d’être recruté selon différents modèles d’intelligence artificielle.  
 Il combine des **scripts Python** pour l’exécution des modèles et une **interface React** pour interagir avec les résultats.  
 
