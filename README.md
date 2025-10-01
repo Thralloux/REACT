@@ -1,4 +1,8 @@
 # Projets Personnels React
+![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-18.0-61DAFB?logo=react&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?logo=bootstrap&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-18.0-339933?logo=node.js&logoColor=white)
 
 ## React / Python 
 
