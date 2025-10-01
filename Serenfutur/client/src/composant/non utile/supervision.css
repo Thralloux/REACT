@@ -1,0 +1,8 @@
+.vache {
+    position: absolute;
+    width: 5%; /* Utilisez des pourcentages pour la largeur */
+    height: 5%; /* Utilisez des pourcentages pour la hauteur */
+    background: url(/public/image/vache.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
