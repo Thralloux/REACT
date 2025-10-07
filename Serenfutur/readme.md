@@ -30,7 +30,7 @@ npm start
 
 ---
 
-## Visualisation
+## Visuelle
 <img width="1333" height="913" alt="image" src="https://github.com/user-attachments/assets/e2b7863e-6a63-4cbd-8b8b-714f8318ca74" />
 <img width="1445" height="887" alt="image" src="https://github.com/user-attachments/assets/92375b51-8158-41b9-98a6-6458e9b299e3" />
 <img width="1269" height="918" alt="image" src="https://github.com/user-attachments/assets/a4f0bf1b-6eed-4b33-b7b1-d6d8d12ba308" />
